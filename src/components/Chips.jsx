@@ -50,7 +50,7 @@ const Chips = () => {
         ))}
       </div>
       <div className='fixed bg-[rgba(0,0,0,0.8)] top-[35%] h-[200px] w-[400px] rounded-[10px] p-[20px] text-white text-center flex flex-col items-center justify-center'>
-        <p className='text-2xl font-bold'>Bags Eaten:</p>
+        <p className='text-2xl font-bold'>Bags Eaten: {chips.length}</p>
         <div className='my-6 text-sm text-black'>
           <button className='bg-white rounded-md py-2 px-4 cursor-pointer' onClick={addChip}>Nom Nom</button>
           <button className='bg-white ml-2 py-2 px-4 rounded-md cursor-pointer' onClick={deleteAllChip}>Enough</button>
